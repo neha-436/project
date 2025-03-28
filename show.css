@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.theatre{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 30px 40px 30px 40px;
+    background-color:  rgb(233, 161, 157);
+    width: fit-content;
+    height: 200px;
+    border-radius: 20px;
+}
+h2{
+    padding-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 3px;
+}
+td{
+    font-size: large;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    margin-left: 10px;
+}
