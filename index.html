@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Sign In</title>
+    <style>
+    body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 110vh;
+    min-width: 100vh;
+    background: url("/bg.jpg") no-repeat;
+    background-size:cover;
+    }
+    .content{
+            border: 2px solid white;
+            color: white;
+            border-radius:5% ;
+            box-shadow: 4px;
+            background-color: transparent;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 70px;
+            padding-right: 70px;
+            max-width: fit-content;
+            justify-content: center;
+            backdrop-filter: blur(30px);
+     }
+        .logo{
+            background-color:whitesmoke;
+            max-width: fit-content;
+            border-radius: 40px;
+            margin-bottom: 30px;
+        }
+        input{
+            background: transparent;
+    border:1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 40px ;
+    outline: none;
+    color: white;
+        }
+        input::placeholder{
+            text-align: center;
+            color: white;
+        }
+   button{
+    height:50px;
+    width: 100px;
+    font-size:medium;
+    background-color: white;
+    border-radius: 40px;
+   }
+   button:hover{
+    background-color: transparent;
+    color: white;
+   }
+   .login{
+    color: black;
+    text-decoration: none;
+   }
+   .login:hover{
+    color: white;
+    transform: scale(40px);
+   }
+   label{
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div class="head">
+            <div class="logo">
+                <img src="/logo.png" alt="logo" height="200px">
+            </div>
+                <div class="content">
+                <h1>SIGN UP</h1>
+                <form>
+                    <label for="Username">Username</label>
+                    <br>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Username">
+                    <br>
+                    <br>
+                    <label for="Email">Email</label>
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <br>
+                    <label for="DOB">DOB</label>
+                    <br>
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <input type="date">
+                    <br>
+                    <br>
+                    <label for="city">Select Your City</label>
+                    <br>
+                    <i class="fa-solid fa-city"></i>
+                    <select id="city" name="city">
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Kolhapur">Kolhapur</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="Password">Password</label>
+                    <br>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                    <br>
+                </form>
+                <br>
+                <a href="/home.html"><button>Submit</button></a>
+                    <br>
+                    <h3>Already have an account? <a class="login" href="/Login.html">Sign In</a></h3>
+                </div>
+
+        </div>
+    </center>
+</body>
+</html>
