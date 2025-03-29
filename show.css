@@ -29,3 +29,13 @@ button{
     border-color: white;
     margin-left: 10px;
 }
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
