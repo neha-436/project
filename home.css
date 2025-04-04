@@ -51,6 +51,5 @@ input{
     background-color: whitesmoke;
 }
 input::placeholder{
-    columns: white;
     text-align: center;
 }
