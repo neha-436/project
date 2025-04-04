@@ -27,8 +27,7 @@ h2{
     box-shadow: 30px;
 }
 .m:hover{
-    transform:scale(50%);
-    transition: cubic-bezier(-50%);
+    transform:scale(80%);
 }
 button{
     height:50px;
